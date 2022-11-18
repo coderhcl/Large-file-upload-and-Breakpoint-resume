@@ -1,0 +1,26 @@
+{
+  "name": "large-file-upload-and-breakpoint-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderhcl/Large-file-upload-and-Breakpoint-resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderhcl/Large-file-upload-and-Breakpoint-resume/issues"
+  },
+  "homepage": "https://github.com/coderhcl/Large-file-upload-and-Breakpoint-resume#readme",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0"
+  }
+}
