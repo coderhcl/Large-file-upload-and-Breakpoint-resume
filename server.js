@@ -27,6 +27,7 @@ app.post('/api/upload', async (req, res) => {
   const ext = extname(name)
   // 文件名
   const filename = resolve(__dirname, `./public/${hash}${ext}`)
+
   if (offset > 0) {
     if (!existsSync(filename)) {
       res.status(400).send({
